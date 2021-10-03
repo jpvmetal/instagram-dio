@@ -54,6 +54,7 @@ body {
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    margin-top: 1rem;
 }
 
 .group:nth-child(1) {
@@ -62,7 +63,7 @@ body {
 
 .instagram-logo {
     height: 4rem; /*tamanho do logo do instagram*/
-    margin-top: 1rem
+    margin-top: 1rem;
 }
 
 .profile-photo {
@@ -71,7 +72,7 @@ body {
     align-items: center;
     border-radius: 50%; /* porcentagem de arredondamento das bordas */
     overflow: hidden; /* Arredondando a imagem do perfil*/
-    margin-top: 1rem
+    margin-top: 1rem;
 }
 
 .profile-photo img {
