@@ -1,14 +1,14 @@
 * {
-    padding: 0; /*amplia o tamanho dos blocos da coluna "B"*/
-    margin: 0; /*amplia o tamanho dos blocos na coluna "B", incluindo um espaçamento entre os blocos*/
-    box-sizing: border-box; /* */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 14px;
 }
 
 body {
-    width: 80%; /* Distância da margem esquerda para o centro da primeira imagem*/
+    width: 80%;
     min-height: 100vh;
     background-color: rgb(248, 248, 248);
     padding: 0;
@@ -19,17 +19,17 @@ body {
 
 .instagram-wrapper {
     display: flex;
-    align-items: center; /*mantem os intens próximos sem margem grandes do bloco "B"*/
+    align-items: center;
     justify-content: start;
-    width: 130%; /* distância entre os blocos "A" e "B" na horizontal. Centralizando mais o primeiro bloco*/
-    height: 100vh; /* Distância da borda superior */
+    width: 130%;
+    height: 100vh;
 }
 
 .instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;  /*centraliza os dois conjuntos de blocos*/
+    width: 100%;
 }
 
 .instagram-phone img {
@@ -38,11 +38,11 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* Horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    width: 70%; /* tamanho da coluna "b"*/
-    min-height: 34rem; /* Separação horizontal entre os "blocos" da coluna "b"*/
+    width: 70%;
+    min-height: 34rem;
 }
 
 .group {
@@ -62,7 +62,7 @@ body {
 }
 
 .instagram-logo {
-    height: 4rem; /*tamanho do logo do instagram*/
+    height: 4rem;
     margin-top: 1rem;
 }
 
@@ -70,34 +70,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%; /* porcentagem de arredondamento das bordas */
-    overflow: hidden; /* Arredondando a imagem do perfil*/
+    border-radius: 50%;
+    overflow: hidden;
     margin-top: 1rem;
 }
 
 .profile-photo img {
-    height: 8rem; /*tamanho da imagem do perfil*/
+    height: 8rem;
 }
 
 .instagram-login {
-    background-color: rgb(68, 207, 68); /* cor de fundo onde mostra para: "continuar logado como fulano(a)" */
-    color: #ffffff; /* cor da letra do texto que mostra: "continuar logado como fulano(a)" */
-    padding: 10px; /* tamanho do botão que mostra: "continuar logado como fulano(a)" */
-    border-radius: 4px; /* arredondamento do campo que mostra o texto "continuar como fulano(a)" */
-    margin-top: 2rem; /*espaço entre a foto de perfil e o botão de "continuar logado como fulano"*/
+    background-color: rgb(68, 207, 68);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 2rem;
 }
 
 .instagram-logout {
-    color: #0095f6; /* cor das letras onde fica escrito: "remover conta" */
-    margin-top: 1rem; /* distância entre a frase superior */
+    color: #0095f6;
+    margin-top: 1rem;
 }
 
 .not-account {
-    color: rgb(160, 160, 160); /* cor das letras onde está escrito: "Não é Fulano(a)? Alternar contas ou Increva-se" */
+    color: rgb(160, 160, 160);
 }
 
 .link-blue {
-    color: #0095f6; /* altera a cor das letras onde estão apontados os links em: "Alterar contas" e "Inscreva-se" */
+    color: #0095f6;
 }
 
 .get-the-app {
@@ -118,18 +118,18 @@ body {
 }
 
 .app-download {
-    height: 3rem; /* tamanho dos botões de download da apple e da google */
-    width: 10rem; /* tamanho dos retângulos dos botões, ao mudar os quadros superiores mudam também para acompanhar */
+    height: 3rem;
+    width: 10rem;
     background-size: cover;
 }
 
 .app-download:nth-child(1) {
-    background-image: url('C:/Users/jpvmetal/Desktop/VSCODE/venv/DIO/Exemplo_Insta/apple-button.png');
-    border-radius: 5px; /*curvatura das bordas do botão "apple"*/
+    background-image: url('C:/Users/profile/Desktop/VSCODE/venv/DIO/Exemplo_Insta/apple-button.png');
+    border-radius: 5px;
 }
 
 .app-download:nth-child(2) {
-    background-image: url('C:/Users/jpvmetal/Desktop/VSCODE/venv/DIO/Exemplo_Insta/googleplay-button.png');
+    background-image: url('C:/Users/profile/Desktop/VSCODE/venv/DIO/Exemplo_Insta/googleplay-button.png');
 }
 
 /* media queries */
