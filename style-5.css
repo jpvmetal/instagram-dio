@@ -124,12 +124,12 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('C:/Users/profile/Desktop/VSCODE/venv/DIO/Exemplo_Insta/apple-button.png');
+    background-image: url('../Exemplo_Insta/apple-button.png');
     border-radius: 5px;
 }
 
 .app-download:nth-child(2) {
-    background-image: url('C:/Users/profile/Desktop/VSCODE/venv/DIO/Exemplo_Insta/googleplay-button.png');
+    background-image: url('../Exemplo_Insta/googleplay-button.png');
 }
 
 /* media queries */
